@@ -17,13 +17,13 @@
 	<xacro:property name="pi" value="3.1415926535897931" />
   <!-- STL file -->
 	<xacro:property name="folder" value="package://robot_model/rv4fl"/>
-  <xacro:property name="link0_stl" value="${folder}/00_BASE.stl" />
-  <xacro:property name="link1_stl" value="${folder}/01_SHOLDER.stl" />
-  <xacro:property name="link2_stl" value="${folder}/02_No1ARM.stl" />
-  <xacro:property name="link3_stl" value="${folder}/03_ELBOW.stl" />
-  <xacro:property name="link4_stl" value="${folder}/04_No2ARM.stl" />
-  <xacro:property name="link5_stl" value="${folder}/05_WRIST.stl" />
-  <xacro:property name="link6_stl" value="${folder}/06_FRANGE.stl" />
+  <xacro:property name="link0_stl" value="${folder}/L0.stl" />
+  <xacro:property name="link1_stl" value="${folder}/L1.stl" />
+  <xacro:property name="link2_stl" value="${folder}/L2.stl" />
+  <xacro:property name="link3_stl" value="${folder}/L3.stl" />
+  <xacro:property name="link4_stl" value="${folder}/L4.stl" />
+  <xacro:property name="link5_stl" value="${folder}/L5.stl" />
+  <xacro:property name="link6_stl" value="${folder}/L6.stl" />
   <xacro:property name="handeye_stl" value="package://robot_model/equipment/handEye.stl" />
   <!-- STL model yawing -->
   <xacro:property name="yaw" value="${pi}"/>
