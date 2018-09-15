@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>robot_model</name>
+  <version>0.1.0</version>
+  <description>The Robot Model package</description>
+
+  <maintainer email="ca-giken@c-able.ne.jp">ca-giken</maintainer>
+  <license>BSD</license>
+  <url type="website">https://www.c-able.ne.jp/~hirai55</url>
+  <author email="ca-giken@c-able.ne.jp">KazukiHiraizumi</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>python-rospkg</depend>
+  <depend>roscpp</depend>
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>sensor_msgs</depend>
+</package>
